@@ -1,0 +1,333 @@
+    1  ls
+    2  cd
+    3  ls
+    4  gsutil ls
+    5  ls
+    6  gsutil ls
+    7  vi .bashrc 
+    8  source .bashrc 
+    9  vi .bashrc 
+   10  source .bashrc 
+   11  vi .bashrc 
+   12  source .bashrc 
+   13  vi .bashrc 
+   14  source .bashrc 
+   15  vi .bashrc 
+   16  source .bashrc 
+   17  cd /home/
+   18  cd /etc/
+   19  vi .bashrc 
+   20  source .bashrc 
+   21  cd /home/
+   22  gsutil ls
+   23  sudo yum install postgresql-client
+   24  sudo yum install postgresql
+   25  wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
+   26  sudo yum install wget
+   27  wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
+   28  chmod +x cloud_sql_proxy
+   29  clear
+   30  ./cloud_sql_proxy -instances=<eep-p16-eim-bpid-809799:europe-west2:eep-eim-sql1>=tcp:5432
+   31  ./cloud_sql_proxy -instances=<eep-p16-eim-bpid-809799>=tcp:5432
+   32  sudo mkdir /cloudsql; sudo chmod 777 /cloudsql
+   33  ./cloud_sql_proxy -dir=/cloudsql &
+   34  psql "sslmode=disable dbname=postgres user=postgres hostaddr=[INSTANCE_IP]"
+   35  clear
+   36  psql "sslmode=disable dbname=postgres user=postgres hostaddr=[35.197.192.61]"
+   37  psql "sslmode=disable dbname=postgres user=postgres hostaddr=35.197.192.61"
+   38  cd /
+   39  ls
+   40  cd /home/
+   41  ls
+   42  cd
+   43  ls
+   44  rm cloud_sql_proxy 
+   45  ls
+   46  history > hisben1.txt
+   47  cat hisben1.txt 
+   48  vi psql.sh
+   49  ls
+   50  bash psql.sh 
+   51  vi psql.sh
+   52  bash psql.sh 
+   53  vi psql.sh
+   54  bash psql.sh 
+   55  clear
+   56  sudo yum install mysql
+   57  mysql --host=35.189.107.172 --user=root --password
+   58  ls
+   59  rm psql.sh 
+   60  vi sqllogon.sh
+   61  ls
+   62  bash sqllogon.sh 
+   63  mysql -user -pass -e"select ga_end from raw where manu='google';"
+   64  clear
+   65  mysql -user -pass -e"select ga_end from raw where manu='google';"
+   66  mysql -u root -p -e"select ga_end from raw where manu='google';"
+   67  sudo yum install googler
+   68  yum-config-manager --add-repo ppa:twodopeshaggy/jarun
+   69  sudo yum-config-manager --add-repo ppa:twodopeshaggy/jarun
+   70  gsutil ls
+   71  gsutil ls gs://eep-eim-buc1/
+   72  exit
+   73  ls
+   74  exit
+   75  sudo install --upgrade google-cloud-language
+   76  sudo yum install --upgrade google-cloud-language
+   77  sudo yum install google-cloud-language
+   78  python --version 
+   79  ls
+   80  vi nat-lang.sh
+   81  python nat-lang.sh 
+   82  gcloud version
+   83  ls
+   84  gsutil ls
+   85  gsutil ls gs://eep-eim-buc1/
+   86  ls
+   87  bash sqllogon.sh 
+   88  vi sqllogon.sh 
+   89  bash sqllogon.sh 
+   90  clear
+   91  gsutil ls
+   92  gsutil cp gs://eep-eim-buc1/
+   93  gsutil cp gs://eep-eim-buc1/request.json ./
+   94  ls
+   95  gsutil cp gs://eep-eim-buc1/apikey.txt ./
+   96  cat apikey.txt 
+   97  export API_KEY=
+   98  AIzaSyArqv8HVAAdNWiQFycfOqinsdRKawFqwps
+   99  export API_KEY=AIzaSyArqv8HVAAdNWiQFycfOqinsdRKawFqwps
+  100  clear
+  101  curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}"   -s -X POST -H "Content-Type: application/json" --data-binary @request.json
+  102  echo "curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}"   -s -X POST -H "Content-Type: application/json" --data-binary @request.json"
+  103  echo "curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}"   -s -X POST -H "Content-Type: application/json" --data-binary @request.json"> nltest.sh
+  104  cat nltest.sh 
+  105  bash nltest.sh 
+  106  exit
+  107  echo $API_KEY
+  108  ls
+  109  cat apikey.txt 
+  110  vi apikey.txt 
+  111  mv apikey.txt apikey.sh
+  112  ls
+  113  cat nat-lang.sh 
+  114  rm nat-lang.sh 
+  115  ls
+  116  cat nltest.sh 
+  117  ls
+  118  cat request.json 
+  119  cp request.json request2.json 
+  120  vi request2.json
+  121  less request2.json 
+  122  ls
+  123  cat nltest.sh 
+  124  cp nltest.sh nltest2.sh 
+  125  vi nltest2.sh 
+  126  bash nltest2.sh 
+  127  vi nltest2.sh 
+  128  less request2.json 
+  129  vi request2.json 
+  130  bash nltest2.sh 
+  131  vi request2.json 
+  132  bash nltest2.sh 
+  133  clear
+  134  ls
+  135  bash sqllogon.sh 
+  136  ls
+  137  cat apikey.sh 
+  138  bash apikey.sh 
+  139  less request2.json 
+  140  cat nltest2.sh 
+  141  bash nltest2.sh 
+  142  clear
+  143  ls
+  144  exit
+  145  ls
+  146  ls -l
+  147  bash nltest.sh 
+  148  clear
+  149  sudo yum install googler
+  150  dnf install googler
+  151  git --version 
+  152  yum install git
+  153  sudo yum install git
+  154  cd
+  155  ls
+  156  mkdir git
+  157  cd g
+  158  cd git/
+  159  git clone https://github.com/jarun/googler
+  160  ls
+  161  cd googler/
+  162  ls
+  163  ls -l 
+  164  sudo make install
+  165  googler hsbc
+  166  yum install python3 
+  167  sudo yum install python3
+  168  clear
+  169  cd
+  170  cat .bashrc 
+  171  shopt checkwinsize
+  172  shopt -s checkwinsize
+  173  less /etc/bashrc 
+  174  bash /etc/bashrc
+  175  vi .bashrc 
+  176  source .bashrc 
+  177  vi .bashrc 
+  178  source .bashrc 
+  179  vi .bashrc 
+  180  source .bashrc 
+  181  bash /etc/bashrc
+  182  vi .bashrc 
+  183  source .bashrc 
+  184  vi .bashrc 
+  185  bash /etc/bashrc
+  186  vi .bashrc 
+  187  bash /etc/bashrc
+  188  source .bashrc 
+  189  bash /etc/bashrc
+  190  cat .bashrc 
+  191  clear
+  192  source /etc/bashrc 
+  193  vi .bashrc 
+  194  cat .bashrc 
+  195  wget https://www.python.org/ftp/python/3.4.3/Python-3.5.6.tar.xz
+  196  wget https://www.python.org/ftp/python/3.5.6/Python-3.5.6.tgz
+  197  ls
+  198  tar zxvf Python-3.5.6.tgz
+  199  ls
+  200  cd Python-3.5.6
+  201  ls
+  202  ./configure 
+  203  sudo yum groupinstall "Development Tools"
+  204  ./configure 
+  205  make
+  206  make altinstall 
+  207  sudo make altinstall
+  208  python3 --version
+  209  su
+  210  sudo passwd
+  211  su
+  212  python --version
+  213  python3 --version
+  214  python3.6 --version
+  215  clear
+  216  googler
+  217  /usr/bin/env: python3: No such file or directory
+  218  cd /usr/bin/
+  219  ls
+  220  ls |grep pytho
+  221  su
+  222  cd
+  223  ls
+  224  curl http://www.h4rdy.com
+  225  sudo yum makecache
+  226  sudo yum install yum-utils
+  227  sudo yum install https://centos7.iuscommunity.org/ius-release.rpm
+  228  sudo yum makecache
+  229  sudo yum install python34u python34u-pip
+  230  python3.4 --version
+  231  googler ben
+  232  clear
+  233  googler -h
+  234  googler --np ben
+  235  googler --np -n 5 ben
+  236  googler --np -n 5 hello
+  237  googler --np -n 1 hello
+  238  googler --np -n 2 hello
+  239  googler --np -n 3 hello
+  240  googler --np -n 7 hello
+  241  googler --np -n 7 hello > raw_search_1
+  242  ls
+  243  cat raw_search_1 
+  244  ls
+  245  cat raw_search_1 | grep http
+  246  curl --help
+  247  wget --help
+  248  cat raw_search_1 | grep http
+  249  wget https://en.wikipedia.org/wiki/Hello_(Adele_song)
+  250  wget 'https://en.wikipedia.org/wiki/Hello_(Adele_song)'
+  251  ls
+  252  less Hello_\(Adele_song\) 
+  253  ls -al
+  254  curl 'https://en.wikipedia.org/wiki/Hello_(Adele_song)' > hello2.txt
+  255  less hello2.txt 
+  256  ls -al
+  257  ls
+  258  html2text
+  259  yum install html2text
+  260  sudo yum install html2text
+  261  html2text
+  262  html2text hello2.txt 
+  263  html2text hello2.txt > hello3.txt
+  264  ls -la
+  265  less hello3.txt 
+  266  ls
+  267  cat raw_search_1 
+  268  cat raw_search_1 | grep http >  raw_search_2
+  269  cat raw_search_2
+  270  sort --help
+  271  sort raw_search_2 
+  272  sort raw_search_2 > raw_search_3
+  273  uniq --help
+  274  vi uniqtest.txt
+  275  ls
+  276  ls -l
+  277  uniq uniqtest.txt uniqtest2.txt
+  278  cat uniqtest2.txt 
+  279  history |uniq 
+  280  history |uniq > eimhis1.txt
+  281  ls -al
+  282  exit
+  283  ls
+  284  rm -r Python-3.5.6/
+  285  sudo rm -r Python-3.5.6/
+  286  ls
+  287  clear
+  288  cd ../
+  289  ls
+  290  cd D
+  291  cd Dave/
+  292  sudo ls Dave/
+  293  clear
+  294  cd
+  295  cd ../
+  296  ls
+  297  sudo mkdir eimdocs
+  298  ls
+  299  cd eimdocs/
+  300  history > his1.txt
+  301  touch his.txt
+  302  ls
+  303  exit
+  304  ls#
+  305  ls
+  306  cd ../eimdocs/
+  307  touch ben
+  308  ls
+  309  rm ben 
+  310  cd 
+  311  ls 
+  312  ls -lah
+  313  git --version
+  314  git status
+  315  ls
+  316  cd git/
+  317  git status
+  318  ls
+  319  cd googler/
+  320  git status
+  321  git clone https://github.com/bennyhub/hello-world
+  322  ls 
+  323  rm hello-world/
+  324  rm -r hello-world/
+  325  y
+  326  ls
+  327  cd
+  328  ld
+  329  ls
+  330  cd git/
+  331  ls
+  332  git clone https://github.com/bennyhub/eimrepo
+  333  history > eimhis1.txt
